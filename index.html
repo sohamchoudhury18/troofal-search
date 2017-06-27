@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>TrooSearch</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Fruktur" rel="stylesheet">
+</head>
+
+<body>
+    <div class="Container">
+        <div class="Heading">
+            TrooSearch
+        </div>
+        <div class="Search-Div">
+            <input class="Search-Box" placeholder="Type here to Search Something" type="text" id="search" />
+            <p id="behind-searchBox">
+
+            </p>
+        </div>
+        <div style="display:none" class="Suggestion-Div" id="suggestions">
+
+        </div>
+        <div style="display:none" class="Suggestion-Div" id="loading-div-id">
+            <div class="sugg" id="sugg-loading">
+                Loading....
+            </div>
+        </div>
+
+    </div>
+</body>
+<script type="text/javascript" src="js/Api.js"></script>
+<script type="text/javascript" src="js/Ui.js"></script>
+<script type="text/javascript" src="js/Events.js"></script>
+<script type="text/javascript" src="autocomplete-plugin/autocomplete.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</html>

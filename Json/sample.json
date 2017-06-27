@@ -1,0 +1,24 @@
+{
+    "error": false,
+    "data": [{
+        "name": "DLF Belvedere Park",
+        "locality": "DLF City Phase 2",
+        "city": "Gurgaon"
+    }, {
+        "name": "DLF Belvedere Towers",
+        "locality": "DLF City Phase 2",
+        "city": "Gurgaon"
+    }, {
+        "name": "DLF Carlton Estate",
+        "locality": "DLF City Phase 5",
+        "city": "Gurgaon"
+    }, {
+        "name": "DLF Exclusive Floors",
+        "locality": "DLF City Phase 5",
+        "city": "Gurgaon"
+    }, {
+        "name": "DLF Express Greens",
+        "locality": "Sector 1A IMT Manesar",
+        "city": "Gurgaon"
+    }]
+}
